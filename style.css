@@ -1,0 +1,37 @@
+:root {
+    --dark-bg: #1f2937;
+    --light
+}
+
+
+* {
+    border: 1px solid coral;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+.section {
+    padding: 5em 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 0;
+}
+
+
+
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
