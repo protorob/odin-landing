@@ -14,35 +14,35 @@
 </head>
 
 <body>
-    <div id="header" class="section header">
+    <div id="navigation" class="section dark-bg">
         <div class="container">
-            <div class="menu-bar">
-                <div class="logo">Header Logo</div>
-                <div class="main-menu">
-                    <ul>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Products</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="hero-content">
-                <div>
-                    <h1>This website is awesome</h1>
-                    <p>This website has some subtext that goes here under the main title. It's a smaller font and the
-                        color is lower contrast. </p>
-                        <a href="#" class="button primary">Sign up</a>
-                </div>
-                <div>
-                    <img src="" alt="">
-                </div>
+            <div class="logo">Header Logo</div>
+            <div>
+                <ul class="navbar">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
             </div>
         </div>
     </div>
-    <div class="section">
+    <div id="hero" class="section dark-bg">
+        <div class="container">
+            <div class="hero-content">
+                <h1>This website is awesome</h1>
+                <p>This website has some subtext that goes here under the main title. It's a smaller font and the
+                    color is lower contrast. </p>
+                <a href="#" class="button primary">Sign up</a>
+            </div>
+            <div class="hero-image">
+                <img src="./image.jpg" alt="A picture of a guy picking wine grapes in a vineyard">
+            </div>
+        </div>
+    </div>
+    <div id="products" class="section">
         <div class="container">
             <h1>Some random information</h1>
-            <ul class="info-list">
+            <ul class="product-list">
                 <li>
                     <div class="image"></div>
                     <p>This is some subtext under an illustration or an image.</p>
@@ -62,26 +62,32 @@
             </ul>
         </div>
     </div>
-    <div class="section darker">
-        <div class="container quote-container">
+    <div id="quote" class="section light-bg">
+        <div class="container">
             <figure>
-                <blockquote cite="http://www.w3.org/html/wg/drafts/html/master/grouping-content.html#the-figure-element">
-                  The figure element represents some flow content, optionally with a caption,
-                  that is self-contained and is typically referenced as a single unit from the
-                  main flow of the document.
+                <blockquote
+                    cite="http://www.w3.org/html/wg/drafts/html/master/grouping-content.html#the-figure-element">
+                    The figure element represents some flow content, optionally with a caption,
+                    that is self-contained and is typically referenced as a single unit from the
+                    main flow of the document.
                 </blockquote>
-                <figcaption>asdf</figcaption>
-              </figure>
-              
+                <figcaption>- Someone Very Wise, 1999</figcaption>
+            </figure>
+
         </div>
     </div>
-    <div id="footer" class="section">
-        <div class="container primary rounded">
+    <div id="cta" class="section">
+        <div class="container">
             <div class="headline">
                 <h3>Call to action! It's time!</h3>
                 <p>Sign up for our product by clicking that button right over there!</p>
             </div>
             <a href="#" class="button light-ghost">Sign up</a>
+        </div>
+    </div>
+    <div id="footer" class="section dark-bg">
+        <div class="container">
+            <p>Copyright @ The Odin Project</p>
         </div>
     </div>
 </body>
